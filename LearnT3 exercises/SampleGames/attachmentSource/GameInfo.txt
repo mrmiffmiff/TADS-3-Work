@@ -1,0 +1,13 @@
+IFID: 55e2c590-f3b5-749e-e06a-3e3555b45329
+Name: Attachment
+Byline: by Eric Eve
+HtmlByline: by <a href="mailto:eric.eve@hmc.ox.ac.uk"> Eric Eve</a>
+AuthorEmail: Eric Eve <eric.eve@hmc.ox.ac.uk>
+Desc: A demonstration of TADS 3 Attachable classes.
+HtmlDesc: A demonstration of TADS 3 Attachable classes.
+Version: 0.2
+ReleaseDate: 2007-08-19
+Language: en-US
+LicenseType: Freeware
+CopyingRules: Nominal cost only; compilations allowed
+PresentationProfile: Default

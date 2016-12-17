@@ -1,0 +1,13 @@
+IFID: 6143aa2f-80cf-2cd5-270f-1fb483da24e1
+Name: Bedsitterland
+Byline: by Eric Eve
+HtmlByline: by <a href="mailto:eric.eve@hmc.ox.ac.uk"> Eric Eve</a>
+AuthorEmail: Eric Eve <eric.eve@hmc.ox.ac.uk>
+Desc: A demonstration of TADS NestedRoom classes
+HtmlDesc: A demonstration of TADS NestedRoom classes
+Version: 0.5
+ReleaseDate: 2007-09-15
+Language: en-US
+LicenseType: Freeware
+CopyingRules: Nominal cost only; compilations allowed
+PresentationProfile: Default

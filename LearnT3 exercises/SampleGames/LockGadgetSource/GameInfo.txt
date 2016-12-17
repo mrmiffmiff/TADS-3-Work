@@ -1,0 +1,13 @@
+IFID: 77eebefc-9f19-bc82-2530-65e817e6b811
+Name: Locks and Gadgets
+Byline: by Eric Eve
+HtmlByline: by <a href="mailto:eric.eve@hmc.ox.ac.uk"> Eric Eve</a>
+AuthorEmail: Eric Eve <eric.eve@hmc.ox.ac.uk>
+Desc: A demo of TADS 3 Locks, Keys, Gadgets and Controls
+HtmlDesc: A demo of TADS 3 Locks, Keys, Gadgets and Controls
+Version: 0.3
+ReleaseDate: 2007-08-08
+Language: en-US
+LicenseType: Freeware
+CopyingRules: Nominal cost only; compilations allowed
+PresentationProfile: Default

@@ -1,0 +1,406 @@
+# TADS 3 makefile
+#
+# Warning: this file was mechanically generated.  You may edit this file
+# manually, but your changes might be modified or discarded when
+# you load this file into a TADS development tool.  The TADS tools
+# generally retain the comment at the start of the file and the
+# comment marked "##sources" below, but other comments might be
+# discarded, the formatting might be changed, and some option
+# settings might be modified.
+
+-pre
+-D LANGUAGE=en_us
+-D MESSAGESTYLE=neu
+-Fy obj
+-Fo obj
+-v
+-w1
+
+##sources
+-lib system
+-lib adv3/adv3
+  -x footnote
+-source extensions/cquotes
+-source SimpleAttachable
+-source attachment
+
+-res
+GameInfo.txt
+
+# The following is machine-generated - DO NOT EDIT
+[Config:devsys]
+*56 src win split:c:\program files\tads 3\lib\adv3\objects.t:S:0:0.000000
+*101 src win selrange:C:\Documents and Settings\Eric Eve\My Documents\TADS\Attachment\Scripts\Auto 104.cmd:S:0:0,0
+*101 src win selrange:C:\Documents and Settings\Eric Eve\My Documents\TADS\Attachment\Scripts\Auto 104.cmd:S:1:298,298
+DebugToolbar:rebarWidth:I:-1
+*53 src win pos:C:\Program Files\TADS 3\Contrib\lookDir.t:R:44,58,479,350
+*57 src win edit mode:c:\program files\tads 3\lib\adv3\misc.t:S:0:TADS 3
+*99 src win selrange:C:\Documents and Settings\Eric Eve\My Documents\TADS\Attachment\SimpleAttachable.t:S:0:0,0
+*99 src win selrange:C:\Documents and Settings\Eric Eve\My Documents\TADS\Attachment\SimpleAttachable.t:S:1:8765,8765
+build:extres_files_0000-sys:S:0:user
+*101 src win selrange:C:\Documents and Settings\Eric Eve\My Documents\TADS\Attachment\Scripts\Auto 134.cmd:S:0:0,0
+*101 src win selrange:C:\Documents and Settings\Eric Eve\My Documents\TADS\Attachment\Scripts\Auto 134.cmd:S:1:895,895
+*69 src win split:C:\Program Files\TADS 3\Contrib\ConSpace2\Space_en_us.t:S:0:0.000000
+*59 src win edit mode:c:\program files\tads 3\lib\adv3\output.t:S:0:TADS 3
+*40 src win pos:c:\tads3\lib\adv3\resolver.t:R:44,44,156,274
+*56 src win split:c:\program files\tads 3\lib\adv3\actions.t:S:0:0.000000
+*101 src win selrange:C:\Documents and Settings\Eric Eve\My Documents\TADS\Attachment\Scripts\Auto 138.cmd:S:0:0,0
+*101 src win selrange:C:\Documents and Settings\Eric Eve\My Documents\TADS\Attachment\Scripts\Auto 138.cmd:S:1:0,0
+build:ext resfile cnt:I:0
+src win pos:HellHall.t:R:0,0,866,408
+*38 src win pos:c:\tads3\lib\adv3\banner.t:R:0,0,174,27
+*82 src win pos:C:\Documents and Settings\Eric Eve\My Documents\TADS\AllHope\License.t:R:22,29,479,347
+build:defaults set:I:1
+watch win:vis:I:0
+watch win:pos:R:316,468,796,607
+*79 src win split:C:\Documents and Settings\Eric Eve\My Documents\TADS\Test\test2.t:S:0:0.000000
+*38 src win pos:c:\tads3\lib\adv3\action.t:R:0,0,112,224
+*51 line wrap:c:\program files\tads 3\lib\adv3\action.t:S:0:N
+*30 src win pos:c:\tads3\lib\tok.t:R:22,22,134,246
+*102 src win edit mode:C:\Documents and Settings\Eric Eve\My Documents\TADS\Attachment\Scripts\Auto 104.cmd:S:0:Command Script
+*100 src win edit mode:C:\Documents and Settings\Eric Eve\My Documents\TADS\Attachment\SimpleAttachable.t:S:0:TADS 3
+*102 src win edit mode:C:\Documents and Settings\Eric Eve\My Documents\TADS\Attachment\Scripts\Auto 134.cmd:S:0:Command Script
+src win pos:TestGame.t:R:2,1,114,225
+build:c ops:I:0
+src win pos:AHAext.t:R:0,0,866,408
+src win options:text color:C:0,0,0
+SearchToolbar:rebarNewLine:I:0
+*102 src win edit mode:C:\Documents and Settings\Eric Eve\My Documents\TADS\Attachment\Scripts\Auto 138.cmd:S:0:Command Script
+MenuBar:rebarVis:I:1
+log win vis::I:1
+log win pos::R:172,125,1022,683
+*38 src win pos:c:\tads3\lib\adv3\travel.t:R:0,0,174,27
+*51 line wrap:c:\program files\tads 3\lib\adv3\parser.t:S:0:N
+*51 line wrap:c:\program files\tads 3\lib\adv3\travel.t:S:0:N
+*59 src win selrange:c:\program files\tads 3\lib\adv3\objects.t:S:0:0,0
+*59 src win selrange:c:\program files\tads 3\lib\adv3\objects.t:S:1:82834,82834
+*43 src win pos:c:\tads3\lib\adv3\en_us\en_us.t:R:44,44,156,268
+*54 src win pos:c:\program files\tads 3\lib\adv3\objects.t:R:0,0,866,408
+DocToolbar:rebarIndex:I:3
+*72 src win selrange:C:\Program Files\TADS 3\Contrib\ConSpace2\Space_en_us.t:S:0:0,0
+*72 src win selrange:C:\Program Files\TADS 3\Contrib\ConSpace2\Space_en_us.t:S:1:0,0
+*38 src win pos:c:\tads3\lib\adv3\events.t:R:-4,-23,178,8
+*51 line wrap:c:\program files\tads 3\lib\adv3\events.t:S:0:N
+*62 line wrap:C:\Program Files\TADS 3\Contrib\ConSpace2\ConSpace.t:S:0:N
+build:include_files-sys:S:0:system
+build:include_files-sys:S:1:system
+build:include_files-sys:S:2:system
+build:include_files-sys:S:3:system
+build:include_files-sys:S:4:system
+build:include_files-sys:S:5:system
+build:include_files-sys:S:6:system
+build:include_files-sys:S:7:system
+build:include_files-sys:S:8:system
+build:include_files-sys:S:9:system
+build:include_files-sys:S:10:system
+build:include_files-sys:S:11:system
+build:include_files-sys:S:12:system
+build:include_files-sys:S:13:system
+build:include_files-sys:S:14:lib
+build:include_files-sys:S:15:system
+build:include_files-sys:S:16:lib
+build:include_files-sys:S:17:user
+*59 src win selrange:c:\program files\tads 3\lib\adv3\actions.t:S:0:0,0
+*59 src win selrange:c:\program files\tads 3\lib\adv3\actions.t:S:1:596,596
+project win:dock id:I:6
+*54 src win pos:c:\program files\tads 3\lib\adv3\actions.t:R:-296,88,570,496
+*51 line wrap:c:\program files\tads 3\lib\adv3\extras.t:S:0:N
+src win options:tab size:I:3
+DocToolbar:rebarWidth:I:-1
+*67 src win pos:C:\Program Files\TADS 3\Contrib\TCommand\GiveToAskFor.t:R:0,0,866,408
+*54 src win split:c:\program files\tads 3\lib\adv3\actor.t:S:0:0.000000
+*53 src win pos:C:\Program Files\TADS 3\Contrib\cquotes.t:R:44,58,501,376
+*54 src win split:c:\program files\tads 3\lib\adv3\thing.t:S:0:0.000000
+DebugToolbar:rebarVis:I:1
+src win pos:Pathfind.t:R:0,0,174,27
+*86 line wrap:C:\Documents and Settings\Eric Eve\My Documents\TADS\Attachment\attachment.t:S:0:N
+*65 src win pos:C:\Program Files\TADS 3\Contrib\pasttense\pasttense.t:R:0,0,866,408
+*82 src win selrange:C:\Documents and Settings\Eric Eve\My Documents\TADS\Test\test2.t:S:0:0,0
+*82 src win selrange:C:\Documents and Settings\Eric Eve\My Documents\TADS\Test\test2.t:S:1:5591,5591
+*77 src win pos:C:\Documents and Settings\Eric Eve\My Documents\TADS\Test\test2.t:R:87,111,522,403
+*36 src win pos:c:\tads3\lib\adv3\exec.t:R:88,88,200,312
+watch win:expression list 0:S:0:bridgeChair.attachedObjects
+*49 line wrap:c:\program files\tads 3\lib\adv3\exec.t:S:0:N
+build:zipfile:S:0:attachment.zip
+src win pos:Felicity.t:R:0,0,866,408
+ask reload src::I:1
+*60 src win edit mode:c:\program files\tads 3\lib\adv3\objects.t:S:0:TADS 3
+*49 line wrap:c:\program files\tads 3\lib\adv3\misc.t:S:0:N
+*73 src win edit mode:C:\Program Files\TADS 3\Contrib\ConSpace2\Space_en_us.t:S:0:TADS 3
+build:installer options:S:0:name=attachment
+build:installer options:S:1:savext=attachment
+*38 src win pos:c:\tads3\lib\adv3\output.t:R:22,42,134,266
+search:start at top:I:0
+*60 src win edit mode:c:\program files\tads 3\lib\adv3\actions.t:S:0:TADS 3
+*54 src win split:c:\program files\tads 3\lib\adv3\input.t:S:0:0.000000
+*51 line wrap:c:\program files\tads 3\lib\adv3\output.t:S:0:N
+*54 src win pos:C:\Program Files\TADS 3\Contrib\darkDesc.t:R:66,87,501,379
+*54 src win pos:c:\program files\tads 3\lib\adv3\hintsys.t:R:-475,138,391,546
+EditToolbar:rebarNewLine:I:1
+*83 src win edit mode:C:\Documents and Settings\Eric Eve\My Documents\TADS\Test\test2.t:S:0:TADS 3
+breakpoints:cond-mode:S:0:true
+breakpoints:cond-mode:S:1:true
+*57 src win selrange:c:\program files\tads 3\lib\adv3\actor.t:S:0:0,0
+*57 src win selrange:c:\program files\tads 3\lib\adv3\actor.t:S:1:329429,329429
+*52 src win pos:c:\program files\tads 3\lib\adv3\actor.t:R:66,87,523,405
+*57 src win selrange:c:\program files\tads 3\lib\adv3\thing.t:S:0:0,0
+*57 src win selrange:c:\program files\tads 3\lib\adv3\thing.t:S:1:234718,234718
+*52 src win pos:c:\program files\tads 3\lib\adv3\thing.t:R:22,29,479,347
+ask load dlg::I:1
+*51 src win pos:C:\Program Files\TADS 3\Contrib\rules.t:R:22,29,457,321
+*94 line wrap:C:\Documents and Settings\Eric Eve\My Documents\TADS\Attachment\Scripts\Auto 104.cmd:S:0:N
+src win pos:Agrath.t:R:0,0,866,408
+proj search:exact case:I:0
+*92 line wrap:C:\Documents and Settings\Eric Eve\My Documents\TADS\Attachment\SimpleAttachable.t:S:0:
+*94 line wrap:C:\Documents and Settings\Eric Eve\My Documents\TADS\Attachment\Scripts\Auto 134.cmd:S:0:N
+*80 src win pos:C:\Documents and Settings\Eric Eve\My Documents\TADS\AllHope\demon.t:R:22,29,479,347
+DocToolbar:rebarVis:I:1
+*94 line wrap:C:\Documents and Settings\Eric Eve\My Documents\TADS\Attachment\Scripts\Auto 138.cmd:S:0:N
+auto-script:quit sequences:S:0:<nocase>[<]line[>]<space>*q(uit)?<space>*
+auto-script:quit sequences:S:1:<nocase>[<]line[>]<space>*y.*
+SearchToolbar:rebarIndex:I:2
+search:wrap:I:1
+*61 src win split:C:\Program Files\TADS 3\Contrib\ConSpace2\ECC.t:S:0:0.000000
+*52 src win split:c:\program files\tads 3\lib\adv3\pov.t:S:0:0.000000
+*57 src win selrange:c:\program files\tads 3\lib\adv3\input.t:S:0:0,0
+*57 src win selrange:c:\program files\tads 3\lib\adv3\input.t:S:1:5126,5126
+auto-script:next-id:I:160
+*58 src win edit mode:c:\program files\tads 3\lib\adv3\actor.t:S:0:TADS 3
+SearchToolbar:rebarWidth:I:253
+*58 src win edit mode:c:\program files\tads 3\lib\adv3\thing.t:S:0:TADS 3
+docking config::S:0:CB
+docking config::S:1:W0,632,170,-203,446,286,611,D,B,locals win
+docking config::S:2:W0,387,170,312,446,800,611,D,B,watch win
+docking config::S:3:CL
+docking config::S:4:W3,170,347,-220,17,-9,437,D,L,project win
+docking config::S:5:W3,170,228,175,236,345,386,D,L,script win
+docking config::S:6:W-1,170,170,110,145,828,529,M,R,help win
+docking config::S:7:W-1,170,170,88,116,806,500,M,B,docsearch win
+docking config::S:8:W-1,170,170,554,17,800,219,M,R,log win
+docking config::S:9:W-1,170,170,-101,-353,133,-51,M,R,stack win
+search:text:S:0:lqWall:
+search:text:S:1:SimpleAttachable
+*47 src win pos:c:\program files\tads 3\lib\_main.t:R:-48,103,387,395
+build:extres_files_0000:S:0:fanfare.wav
+locals win:vis:I:0
+locals win:pos:R:-199,468,282,607
+main win max::I:1
+proj search:collapse spaces:I:0
+*52 line wrap:c:\program files\tads 3\lib\adv3\objects.t:S:0:N
+search:exact case:I:0
+build:webpage dir:S:0:C:\Documents and Settings\Eric Eve\My Documents\TADS\Attachment\web
+*83 src win pos:C:\Documents and Settings\Eric Eve\My Documents\TADS\AllHope\Felicity.t:R:0,0,866,408
+mdi win list::S:0::log
+mdi win list::S:1:C:\Documents and Settings\Eric Eve\My Documents\TADS\Attachment\attachment.t
+mdi win list::S:2:c:\program files\tads 3\lib\adv3\objects.t
+mdi win list::S:3:C:\Documents and Settings\Eric Eve\My Documents\TADS\Attachment\Scripts\Auto 134.cmd
+mdi win list::S:4:C:\Documents and Settings\Eric Eve\My Documents\TADS\Attachment\Scripts\Auto 138.cmd
+mdi win list::S:5:C:\Documents and Settings\Eric Eve\My Documents\TADS\Attachment\SimpleAttachable.t
+build:srczipfile:S:0:attachmentSource.zip
+*65 line wrap:C:\Program Files\TADS 3\Contrib\ConSpace2\Space_en_us.t:S:0:N
+main win pos::R:-4,-4,1028,712
+*58 src win edit mode:c:\program files\tads 3\lib\adv3\input.t:S:0:TADS 3
+proj search:whole word:I:0
+*52 line wrap:c:\program files\tads 3\lib\adv3\actions.t:S:0:N
+help win pos::R:286,300,996,650
+help win vis::I:0
+src win options:use win colors:I:1
+build:ignore case:I:0
+docsearch win pos::R:264,271,974,621
+docsearch win vis::I:0
+build:exe:S:0:attachment.exe
+script win:pos:R:2,474,163,683
+script win:vis:I:1
+src win options:bkg color:C:255,255,255
+*64 src win selrange:C:\Program Files\TADS 3\Contrib\ConSpace2\ECC.t:S:0:0,0
+*64 src win selrange:C:\Program Files\TADS 3\Contrib\ConSpace2\ECC.t:S:1:0,0
+*55 src win selrange:c:\program files\tads 3\lib\adv3\pov.t:S:0:0,0
+*55 src win selrange:c:\program files\tads 3\lib\adv3\pov.t:S:1:0,0
+build special file:cover art:S:0:
+*50 src win pos:c:\program files\tads 3\lib\adv3\pov.t:R:66,87,523,405
+src win list::S:0:c:\program files\tads 3\lib\adv3\banner.t
+src win list::S:1:c:\program files\tads 3\lib\adv3\output.t
+src win list::S:2:C:\Documents and Settings\Eric Eve\My Documents\TADS\Test\test2.t
+src win list::S:3:c:\program files\tads 3\lib\adv3\actions.t
+*75 line wrap:C:\Documents and Settings\Eric Eve\My Documents\TADS\Test\test2.t:S:0:N
+build:use charmap:I:0
+src win options:font name:S:0:Courier New
+*90 src win pos:C:\Documents and Settings\Barbara Eve\My Documents\ECSE\TADS\AllHope\AllHope.t:R:66,87,523,405
+*55 src win split:c:\program files\tads 3\lib\adv3\action.t:S:0:0.000000
+EditToolbar:rebarIndex:I:1
+hist win vis::I:0
+src win pos:dimly-lit.t:R:22,29,215,347
+editor:cmdline:S:0:/g %n "%f"
+EditToolbar:rebarWidth:I:578
+build:include_files:S:0:tads.h
+build:include_files:S:1:t3.h
+build:include_files:S:2:lookup.h
+build:include_files:S:3:systype.h
+build:include_files:S:4:vector.h
+build:include_files:S:5:charset.h
+build:include_files:S:6:bytearr.h
+build:include_files:S:7:tadsgen.h
+build:include_files:S:8:tadsio.h
+build:include_files:S:9:reflect.h
+build:include_files:S:10:file.h
+build:include_files:S:11:dict.h
+build:include_files:S:12:tok.h
+build:include_files:S:13:gramprod.h
+build:include_files:S:14:adv3.h
+build:include_files:S:15:strcomp.h
+build:include_files:S:16:en_us.h
+SearchToolbar:rebarVis:I:1
+MenuBar:rebarNewLine:I:0
+*55 src win split:c:\program files\tads 3\lib\adv3\parser.t:S:0:0.000000
+*55 src win split:c:\program files\tads 3\lib\adv3\travel.t:S:0:0.000000
+proj search:regex:I:0
+*39 src win pos:c:\tads3\lib\adv3\menusys.t:R:0,0,174,27
+src win pos:AllHope.t:R:0,0,866,408
+*65 src win edit mode:C:\Program Files\TADS 3\Contrib\ConSpace2\ECC.t:S:0:TADS 3
+*84 src win pos:C:\Documents and Settings\Barbara Eve\My Documents\ECSE\TADS\Test\test.t:R:88,116,523,408
+*56 src win edit mode:c:\program files\tads 3\lib\adv3\pov.t:S:0:TADS 3
+*55 src win split:c:\program files\tads 3\lib\adv3\events.t:S:0:0.000000
+search:whole word:I:1
+*66 src win split:C:\Program Files\TADS 3\Contrib\ConSpace2\ConSpace.t:S:0:0.000000
+gameover dlg::I:1
+*55 src win split:c:\program files\tads 3\lib\adv3\extras.t:S:0:0.000000
+src win options:font size:I:10
+*37 src win pos:c:\tads3\lib\adv3\actor.t:R:66,66,178,290
+*55 src win pos:c:\program files\tads 3\lib\adv3\resolver.t:R:44,58,501,376
+*50 line wrap:c:\program files\tads 3\lib\adv3\actor.t:S:0:N
+*50 line wrap:c:\program files\tads 3\lib\adv3\thing.t:S:0:N
+DebugToolbar:rebarNewLine:I:1
+*53 src win pos:c:\program files\tads 3\lib\adv3\banner.t:R:0,0,866,408
+build:debug_image_file:S:0:debug\attachment.t3
+*90 src win split:C:\Documents and Settings\Eric Eve\My Documents\TADS\Attachment\attachment.t:S:0:0.000000
+search dlg:old searches:S:0:lqWall:
+search dlg:old searches:S:1:hole
+search dlg:old searches:S:2:hawser:
+search dlg:old searches:S:3:myTank
+search dlg:old searches:S:4:StickyAttachable
+search dlg:old searches:S:5:(LookIn
+search dlg:old searches:S:6:Lockable
+search dlg:old searches:S:7:BasicOpenable
+search dlg:old searches:S:8:not aware
+search dlg:old searches:S:9:playerMess
+*60 src win pos:C:\Program Files\TADS 3\Contrib\ncDebugActions.t:R:-175,70,691,478
+*83 src win pos:C:\Documents and Settings\Eric Eve\My Documents\TADS\AllHope\mountain.t:R:44,58,501,376
+editor:program:S:0:C:\Program Files\Pfe32\Pfe32.exe
+*58 src win selrange:c:\program files\tads 3\lib\adv3\action.t:S:0:0,0
+*58 src win selrange:c:\program files\tads 3\lib\adv3\action.t:S:1:178026,178026
+*53 src win pos:c:\program files\tads 3\lib\adv3\action.t:R:22,29,479,347
+*53 src win split:c:\program files\tads 3\lib\adv3\exec.t:S:0:0.000000
+find dialog:pos:R:331,33,775,289
+*45 src win pos:c:\program files\tads 3\lib\tok.t:R:88,116,523,408
+*83 src win pos:C:\Documents and Settings\Eric Eve\My Documents\TADS\AllHope\thoughts.t:R:0,0,457,318
+search dlg:old search opts:S:0:W
+search dlg:old search opts:S:1:W
+search dlg:old search opts:S:2:W
+search dlg:old search opts:S:3:W
+search dlg:old search opts:S:4:W
+search dlg:old search opts:S:5:
+search dlg:old search opts:S:6:
+search dlg:old search opts:S:7:
+search dlg:old search opts:S:8:
+search dlg:old search opts:S:9:
+*37 src win pos:c:\tads3\lib\adv3\exits.t:R:66,66,178,290
+*53 src win split:c:\program files\tads 3\lib\adv3\misc.t:S:0:0.000000
+*37 src win pos:c:\tads3\lib\adv3\input.t:R:7,12,119,236
+*50 line wrap:c:\program files\tads 3\lib\adv3\input.t:S:0:N
+*55 src win split:c:\program files\tads 3\lib\adv3\output.t:S:0:0.000000
+*58 src win selrange:c:\program files\tads 3\lib\adv3\parser.t:S:0:0,0
+*58 src win selrange:c:\program files\tads 3\lib\adv3\parser.t:S:1:69901,69901
+*53 src win pos:c:\program files\tads 3\lib\adv3\parser.t:R:47,136,504,454
+*58 src win selrange:c:\program files\tads 3\lib\adv3\travel.t:S:0:0,0
+*58 src win selrange:c:\program files\tads 3\lib\adv3\travel.t:S:1:0,0
+*53 src win pos:c:\program files\tads 3\lib\adv3\travel.t:R:44,58,501,376
+search:regex:I:0
+startup:action:I:3
+*58 src win pos:c:\program files\tads 3\lib\adv3\en_us\en_us.t:R:0,0,457,318
+mdi tab order::S:0:1,5,3,4,2,0
+*81 src win pos:C:\Documents and Settings\Eric Eve\My Documents\TADS\AllHope\Verity.t:R:0,0,866,408
+*53 src win pos:c:\program files\tads 3\lib\adv3\lister.t:R:66,87,523,405
+*58 src win selrange:c:\program files\tads 3\lib\adv3\events.t:S:0:0,0
+*58 src win selrange:c:\program files\tads 3\lib\adv3\events.t:S:1:22391,22391
+build:rlsgam:S:0:attachment.t3
+*69 src win selrange:C:\Program Files\TADS 3\Contrib\ConSpace2\ConSpace.t:S:0:0,0
+*69 src win selrange:C:\Program Files\TADS 3\Contrib\ConSpace2\ConSpace.t:S:1:0,0
+EditToolbar:rebarVis:I:1
+*53 src win pos:c:\program files\tads 3\lib\adv3\events.t:R:44,58,479,350
+*53 src win pos:c:\program files\tads 3\lib\adv3\verify.t:R:0,0,457,318
+*58 src win selrange:c:\program files\tads 3\lib\adv3\extras.t:S:0:0,0
+*58 src win selrange:c:\program files\tads 3\lib\adv3\extras.t:S:1:109291,109291
+main win mdi max::I:1
+*59 src win edit mode:c:\program files\tads 3\lib\adv3\action.t:S:0:TADS 3
+*53 src win pos:C:\Program Files\TADS 3\Contrib\DupDobj.t:R:-51,111,406,429
+auto-script:default quit sequences set:I:1
+*93 src win selrange:C:\Documents and Settings\Eric Eve\My Documents\TADS\Attachment\attachment.t:S:0:0,0
+*93 src win selrange:C:\Documents and Settings\Eric Eve\My Documents\TADS\Attachment\attachment.t:S:1:10009,10009
+*53 src win pos:c:\program files\tads 3\lib\adv3\report.t:R:88,116,545,434
+src win pos:ChessPlayers.t:R:66,87,523,405
+*98 src win split:C:\Documents and Settings\Eric Eve\My Documents\TADS\Attachment\Scripts\Auto 104.cmd:S:0:0.000000
+*85 src win pos:C:\Documents and Settings\Barbara Eve\My Documents\ECSE\TADS\Test\test2.t:R:0,0,435,292
+*96 src win split:C:\Documents and Settings\Eric Eve\My Documents\TADS\Attachment\SimpleAttachable.t:S:0:0.000000
+dbglog:clear on build:I:1
+*98 src win split:C:\Documents and Settings\Eric Eve\My Documents\TADS\Attachment\Scripts\Auto 134.cmd:S:0:0.000000
+*53 src win pos:c:\program files\tads 3\lib\adv3\status.t:R:88,116,523,408
+bpmove dlg::I:1
+*56 src win selrange:c:\program files\tads 3\lib\adv3\exec.t:S:0:0,0
+*56 src win selrange:c:\program files\tads 3\lib\adv3\exec.t:S:1:53066,53066
+DocToolbar:rebarNewLine:I:0
+*51 src win pos:c:\program files\tads 3\lib\adv3\exec.t:R:66,87,523,405
+*59 src win edit mode:c:\program files\tads 3\lib\adv3\parser.t:S:0:TADS 3
+*98 src win split:C:\Documents and Settings\Eric Eve\My Documents\TADS\Attachment\Scripts\Auto 138.cmd:S:0:0.000000
+*59 src win edit mode:c:\program files\tads 3\lib\adv3\travel.t:S:0:TADS 3
+*56 src win selrange:c:\program files\tads 3\lib\adv3\misc.t:S:0:0,0
+*56 src win selrange:c:\program files\tads 3\lib\adv3\misc.t:S:1:24979,24979
+MenuBar:rebarIndex:I:0
+src win pos:DS_msg_neu.t:R:0,0,174,27
+*84 src win pos:C:\Documents and Settings\Eric Eve\My Documents\TADS\DimlyLit\TestGame.t:R:0,0,123,318
+*51 src win pos:c:\program files\tads 3\lib\adv3\misc.t:R:0,0,866,408
+*59 src win edit mode:c:\program files\tads 3\lib\adv3\events.t:S:0:TADS 3
+src win pos:ViaModerna.t:R:0,0,866,408
+mdi win title::S:0:
+mdi win title::S:1:C:\Documents and Settings\Eric Eve\My Documents\TADS\Attachment\attachment.t
+mdi win title::S:2:c:\program files\tads 3\lib\adv3\objects.t
+mdi win title::S:3:C:\Documents and Settings\Eric Eve\My Documents\TADS\Attachment\Scripts\Auto 134.cmd
+mdi win title::S:4:C:\Documents and Settings\Eric Eve\My Documents\TADS\Attachment\Scripts\Auto 138.cmd
+mdi win title::S:5:C:\Documents and Settings\Eric Eve\My Documents\TADS\Attachment\SimpleAttachable.t
+*57 line wrap:C:\Program Files\TADS 3\Contrib\ConSpace2\ECC.t:S:0:N
+*70 src win edit mode:C:\Program Files\TADS 3\Contrib\ConSpace2\ConSpace.t:S:0:TADS 3
+*48 line wrap:c:\program files\tads 3\lib\adv3\pov.t:S:0:N
+*58 src win selrange:c:\program files\tads 3\lib\adv3\output.t:S:0:0,0
+*58 src win selrange:c:\program files\tads 3\lib\adv3\output.t:S:1:10219,10219
+*59 src win edit mode:c:\program files\tads 3\lib\adv3\extras.t:S:0:TADS 3
+*53 src win pos:c:\program files\tads 3\lib\adv3\output.t:R:22,29,479,347
+*82 src win pos:C:\Documents and Settings\Eric Eve\My Documents\TADS\AllHope\OldHell.t:R:0,0,866,408
+search:dir:I:1
+MenuBar:rebarWidth:I:-1
+*82 src win pos:C:\Documents and Settings\Eric Eve\My Documents\TADS\AllHope\AllHope.t:R:44,58,501,376
+build:installer prog:S:0:attachment_Setup.exe
+project win:vis:I:1
+project win:pos:R:2,124,163,448
+*94 src win edit mode:C:\Documents and Settings\Eric Eve\My Documents\TADS\Attachment\attachment.t:S:0:TADS 3
+auto-script:dir:S:0:Scripts
+filesearch win vis::I:0
+stack win pos::R:75,-198,301,70
+stack win vis::I:0
+DebugToolbar:rebarIndex:I:4
+src win title::S:0:c:\program files\tads 3\lib\adv3\banner.t
+src win title::S:1:c:\program files\tads 3\lib\adv3\output.t
+src win title::S:2:C:\Documents and Settings\Eric Eve\My Documents\TADS\Test\test2.t
+src win title::S:3:c:\program files\tads 3\lib\adv3\actions.t
+*45 src win pos:c:\tads3\lib\adv3\en_us\msg_neu.t:R:0,0,174,27
+*57 src win edit mode:c:\program files\tads 3\lib\adv3\exec.t:S:0:TADS 3
+searchMode::I:1
+search dlg:old repl text:S:0:SimpleAttachable
+search dlg:old repl text:S:1:
+search dlg:old repl text:S:2:topictext
+search dlg:old repl text:S:3:`
+search dlg:old repl text:S:4:topictext
+search dlg:old repl text:S:5:topictext
+search dlg:old repl text:S:6:Status.IsPulled
+search dlg:old repl text:S:7:XXXX
+search dlg:old repl text:S:8:
+search dlg:old repl text:S:9:tt
+

@@ -1,0 +1,13 @@
+IFID: 6f375102-43df-4f89-ac94-a7d46f2f1c52
+Name: Goldskull
+Byline: by Robert Eisenman
+HtmlByline: by <a href="mailto:robert.t.eisenman@gmail.com"> Robert Eisenman</a>
+AuthorEmail: Robert Eisenman <robert.t.eisenman@gmail.com>
+Desc: A simple two room game from Getting Started with TADS 3
+HtmlDesc: A simple two room game from Getting Started with TADS 3
+Version: 1
+ReleaseDate: 2016-12-17
+Language: en-US
+LicenseType: Freeware
+CopyingRules: Nominal cost only; compilations allowed
+PresentationProfile: Default

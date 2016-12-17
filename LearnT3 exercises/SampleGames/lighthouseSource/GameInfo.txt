@@ -1,0 +1,13 @@
+IFID: f5a02ab4-71ec-80f5-83be-a83324c66bac
+Name: The Lighthouse
+Byline: by Eric Eve
+HtmlByline: by <a href="mailto:eric.eve@hmc.ox.ac.uk"> Eric Eve</a>
+AuthorEmail: Eric Eve <eric.eve@hmc.ox.ac.uk>
+Desc: A short game to demonstrate programming NPCs in TADS 3
+HtmlDesc: A short game to demonstrate programming NPCs in TADS 3
+Version: 0.2
+ReleaseDate: 2007-08-08
+Language: en-US
+LicenseType: Freeware
+CopyingRules: Nominal cost only; compilations allowed
+PresentationProfile: Default

@@ -1,0 +1,9 @@
+<eventscript>
+<line>n
+<line>s
+<line>look
+<line>l
+<line>n
+<line>look
+<line>l
+<eof>

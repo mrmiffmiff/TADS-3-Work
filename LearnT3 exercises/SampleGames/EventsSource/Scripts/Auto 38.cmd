@@ -1,0 +1,9 @@
+<eventscript>
+<line>about
+<key>[enter]
+<key>[down]
+<key>[enter]
+<key>[enter]
+<key>[esc]
+<key>[esc]
+<key>[esc]

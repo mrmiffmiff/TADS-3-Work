@@ -1,0 +1,13 @@
+IFID: 7cccddf5-522b-1448-8e67-ad5c8518511c
+Name: Containers
+Byline: by Eric Eve
+HtmlByline: by <a href="mailto:eric.eve@hmc.ox.ac.uk"> Eric Eve</a>
+AuthorEmail: Eric Eve <eric.eve@hmc.ox.ac.uk>
+Desc: A demonstration of TADS 3 container-type classes
+HtmlDesc: A demonstration of TADS 3 container-type classes
+Version: 0.5
+ReleaseDate: 2007-08-02
+Language: en-US
+LicenseType: Freeware
+CopyingRules: Nominal cost only; compilations allowed
+PresentationProfile: Default

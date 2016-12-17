@@ -1,0 +1,13 @@
+IFID: aa2a8984-8c6a-61b6-ecb3-acf0d602e41a
+Name: An Eventful Walk
+Byline: by Eric Eve
+HtmlByline: by <a href="mailto:eric.eve@hmc.ox.ac.uk"> Eric Eve</a>
+AuthorEmail: Eric Eve <eric.eve@hmc.ox.ac.uk>
+Desc: A demonstration of TADS EventList classes, menus, hints and scoring. 
+HtmlDesc: A demonstration of TADS EventList classes, menus, hints and scoring. 
+Version: 0.2
+ReleaseDate: 2007-09-15
+Language: en-US
+LicenseType: Freeware
+CopyingRules: Nominal cost only; compilations allowed
+PresentationProfile: Default

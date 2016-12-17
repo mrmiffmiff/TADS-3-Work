@@ -1,0 +1,13 @@
+IFID: bf1fea6f-f375-9cae-4504-f1f0905510b2
+Name: Connectors
+Byline: by Eric Eve
+HtmlByline: by <a href="mailto:eric.eve@hmc.ox.ac.uk"> Eric Eve</a>
+AuthorEmail: Eric Eve <eric.eve@hmc.ox.ac.uk>
+Desc: Demonstration of Room and TravelConnector classes.
+HtmlDesc: Demonstration of Room and TravelConnector classes.
+Version: 0.3
+ReleaseDate: 2007-07-30
+Language: en-US
+LicenseType: Freeware
+CopyingRules: Nominal cost only; compilations allowed
+PresentationProfile: Default

@@ -1,0 +1,13 @@
+IFID: f679cdf5-2cc7-6438-ca9c-175f25f2ee68
+Name: LightFire
+Byline: by Eric Eve
+HtmlByline: by <a href="mailto:eric.eve@hmc.ox.ac.uk"> Eric Eve</a>
+AuthorEmail: Eric Eve <eric.eve@hmc.ox.ac.uk>
+Desc: A demo of Light and Fire classes
+HtmlDesc: A demo of Light and Fire classes
+Version: 0.3
+ReleaseDate: 2007-08-06
+Language: en-US
+LicenseType: Freeware
+CopyingRules: Nominal cost only; compilations allowed
+PresentationProfile: Default

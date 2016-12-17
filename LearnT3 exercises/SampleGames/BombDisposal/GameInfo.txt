@@ -1,0 +1,13 @@
+IFID: 2b5c2e11-003f-6e0c-4d75-6092f703208b
+Name: Bomb Disposal
+Byline: by Eric Eve
+HtmlByline: by <a href="mailto:eric.eve@hmc.ox.ac.uk"> Eric Eve</a>
+AuthorEmail: Eric Eve <eric.eve@hmc.ox.ac.uk>
+Desc: A demonstration of Fuse and Daemon classes (and also InitObject, PreinitObject, CollectiveGroup and Consultable).
+HtmlDesc: A demonstration of Fuse and Daemon classes (and also InitObject, PreinitObject, CollectiveGroup and Consultable).
+Version: 0.1
+ReleaseDate: 2007-08-07
+Language: en-US
+LicenseType: Freeware
+CopyingRules: Nominal cost only; compilations allowed
+PresentationProfile: Default

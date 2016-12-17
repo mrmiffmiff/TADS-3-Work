@@ -1,0 +1,13 @@
+IFID: 8d3cd7a8-3fcd-4b2a-875f-484149597659
+Name: Test Game
+Byline: by Robert Eisenman
+HtmlByline: by <a href="mailto:mr.miffmiff@gmail.com"> Robert Eisenman</a>
+AuthorEmail: Robert Eisenman <mr.miffmiff@gmail.com>
+Desc: Just making sure all is working.
+HtmlDesc: Just making sure all is working.
+Version: 1
+ReleaseDate: 2016-12-09
+Language: en-US
+LicenseType: Freeware
+CopyingRules: Nominal cost only; compilations allowed
+PresentationProfile: Default

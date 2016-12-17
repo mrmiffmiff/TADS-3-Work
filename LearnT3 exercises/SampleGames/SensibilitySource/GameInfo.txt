@@ -1,0 +1,13 @@
+IFID: d5025e2b-5181-8cbf-ec27-2858383d50a8
+Name: Sense and Sensbility
+Byline: by Eric Eve
+HtmlByline: by <a href="mailto:eric.eve@hmc.ox.ac.uk"> Eric Eve</a>
+AuthorEmail: Eric Eve <eric.eve@hmc.ox.ac.uk>
+Desc: A demonstration of Senses, Multilocs and the like in TADS.
+HtmlDesc: A demonstration of Senses, Multilocs and the like in TADS.
+Version: 0.3
+ReleaseDate: 2007-09-15
+Language: en-US
+LicenseType: Freeware
+CopyingRules: Nominal cost only; compilations allowed
+PresentationProfile: Default
