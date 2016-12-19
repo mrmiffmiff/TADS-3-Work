@@ -1,0 +1,13 @@
+IFID: 08b87938-74fc-4cb3-b5a7-fc2aeafe2a4e
+Name: Learning T3 - Exercise 1
+Byline: by Robert Eisenman
+HtmlByline: by <a href="mailto:robert.t.eisenman@gmail.com"> Robert Eisenman</a>
+AuthorEmail: Robert Eisenman <robert.t.eisenman@gmail.com>
+Desc: A larger map than we've seen so far; layout of my childhood home.
+HtmlDesc: A larger map than we've seen so far; layout of my childhood home, with inaccurate directions that are correct at a relative angle..
+Version: 1
+ReleaseDate: 2016-12-18
+Language: en-US
+LicenseType: Freeware
+CopyingRules: Nominal cost only; compilations allowed
+PresentationProfile: Default
